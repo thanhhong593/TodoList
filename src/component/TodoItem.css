@@ -1,0 +1,42 @@
+
+.TodoItem img{
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 20px;
+}
+.TodoItem {
+   
+    border-bottom: solid 2px rgb(200, 198, 198);
+    display: flex;
+    font-size: 20px;
+ 
+}
+.check p{
+    text-decoration: line-through;
+    opacity: .4;
+}
+.TrafficLight{
+    display: flex;
+    flex-direction: column;
+}
+.TrafficLight .bulb{
+    width:64px;
+    height:64px;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 10px;
+    opacity: 0.2;
+}
+.TrafficLight .active{
+    opacity: 1;
+}
+.TrafficLight .bulb.red{
+   background-color: red;
+}
+.TrafficLight .bulb.orange{
+    background-color: orange;
+ }
+.TrafficLight .bulb.green{
+    background-color: green;
+}
